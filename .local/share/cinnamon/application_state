@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="firefox.desktop" open-window-count="1" score="25643.218907340586" last-seen="1405409088"/>
+    <application id="nautilus.desktop" open-window-count="2" score="191.0341385575862" last-seen="1405410868"/>
+    <application id="file-roller.desktop" open-window-count="0" score="4.30078125" last-seen="1405060143"/>
+    <application id="gedit.desktop" open-window-count="2" score="408.43645592742354" last-seen="1405410867"/>
+    <application id="terminator.desktop" open-window-count="1" score="486.31029733253717" last-seen="1405410501"/>
+    <application id="update-manager.desktop" open-window-count="0" score="0" last-seen="1405065369"/>
+    <application id="steam.desktop" open-window-count="0" score="6.5" last-seen="1405154674"/>
+    <application id="xchat.desktop" open-window-count="0" score="1760.7308944800709" last-seen="1405392576"/>
+    <application id="pinta.desktop" open-window-count="0" score="0" last-seen="1404955410"/>
+    <application id="thunderbird.desktop" open-window-count="0" score="0" last-seen="1405391112"/>
+  </context>
+</application-state>

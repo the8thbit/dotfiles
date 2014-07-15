@@ -1,0 +1,13 @@
+#!/bin/bash
+echo removing old packages...
+rm -rf $DOTSRC
+rm -rf $DOTBIN
+
+echo recreating directory structure...
+mkdir $DOTSRC
+mkdir $DOTBIN
+
+echo installing packages...
+. $DOTPACK/install-packages.sh
+
+emacs

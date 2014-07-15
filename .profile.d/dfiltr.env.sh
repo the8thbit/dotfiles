@@ -1,0 +1,15 @@
+export DFILTR_NODEJS_IP=localhost
+export DFILTR_NODEJS_PORT=8080
+
+export DFILTR_COOKIE_SECRET=changethisforaproductionserver
+
+export DFILTR_MONGO_DB_USER=null
+export DFILTR_MONGO_DB_PASS=null
+export DFILTR_MONGO_DB_IP=localhost
+export DFILTR_MONGO_DB_PORT=27017
+export DFILTR_MONGO_DB_NAME=435
+
+export DFILTR_PIO_API_KEY=null
+export DFILTR_PIO_API_IP=null
+export DFILTR_PIO_API_PORT=8000
+

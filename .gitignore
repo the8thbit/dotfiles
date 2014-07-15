@@ -1,0 +1,7 @@
+*.elc
+*~
+$HOME/.emacs.d/el-get/*
+$HOME/.emacs.d/elpa/*
+$HOME/.emacs.d/auto-save-list/*
+$DOTSRC
+$DOTBIN
