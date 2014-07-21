@@ -4,22 +4,22 @@ normal-top-level-add-subdirs-to-load-path
 
 ;;install, configure and load el-get if needed
 (unless (require 'el-get nil 'noerror)(
-with-current-buffer(
-url-retrieve-synchronously "https://raw.github.com/dimitri/el-get/master/el-get-install.el")(
-let(el-get-master-branch)
-(goto-char(point-max))
-(eval-print-last-sexp)
+	with-current-buffer(
+		url-retrieve-synchronously "https://raw.github.com/dimitri/el-get/master/el-get-install.el")(
+			let(el-get-master-branch)
+			(goto-char(point-max)
+		)
+		(eval-print-last-sexp)
+	)
 )
-)
-(el-get-elpa-build-local-recipes)
-)
+(el-get-elpa-build-local-recipes))
 (add-to-list 'el-get-recipe-path "~/.emacs.d/custom/recipes/")
 
 ;; Desired packages
 (setq el-get-packages '(
-unbound
-color-theme
-powerline
+	unbound
+	color-theme
+	powerline
 ))
 (el-get 'sync el-get-packages)
 

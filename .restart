@@ -1,0 +1,5 @@
+#!/bin/bash
+echo restarting dotfiles...
+xmodmap $HOME/.xmodmap
+. $HOME/.profile
+. $HOME/.bashrc

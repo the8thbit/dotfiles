@@ -8,3 +8,4 @@
 ###########################################################
 
 . "$HOME/.bashrc.d/defaults.sh"     # the defaults provided by the distro
+. "$HOME/.bashrc.d/start-zsh.sh"    # launch into zshell

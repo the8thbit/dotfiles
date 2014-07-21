@@ -1,1 +1,1 @@
-. "$HOME/.zshrc.d/start.sh"
+. "$HOME/.zshrc.d/start.zsh"

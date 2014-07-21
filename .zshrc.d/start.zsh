@@ -1,5 +1,5 @@
 ###########################################################
-# main.sh: Include any modules that you want in your
+# start.zsh: Include any modules that you want in your
 # .zshrc script. Comment out any modules that you don't 
 # want to include using the '#' character.
 ###########################################################
